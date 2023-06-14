@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.highScoreWrapper {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.highScoreContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 18px;
+    padding: 10px;
+}
+
+.highScoreTop {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #354f52;
+    border-radius: 25px 25px 0px 0px;
+    padding: 20px;
+    background: url('https://images.unsplash.com/photo-1523350165414-082d792c4bcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.highScoreBottom {
+    color: #52796f;
+    border-radius: 0px 0px 25px 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+    padding-bottom: 25px;
+}
+
+.highScoreHeader {
+    font-weight: bold;
+    text-decoration: underline;
+}
